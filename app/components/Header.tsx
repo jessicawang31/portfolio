@@ -43,7 +43,7 @@ export default function Header() {
         </p>
         <p className="text-base text-gray-600 dark:text-gray-400 mb-4 max-w-2xl leading-relaxed">
           Hi! I&apos;m currently working on a Microsoft AI project, where I explore how AI-powered features can be shaped into meaningful product experiences. 
-          Concurrently, I'm pursuing a B.S. in Informatics at the University of Washington and a minor in Business. 
+          Concurrently, I&apos;m pursuing a B.S. in Informatics at the University of Washington and a minor in Business. 
           I care deeply about the intersection of technology and people, and I&apos;m especially interested in building thoughtful, user-centered systems that improve accessibility and promote inclusiveness. 
           I&apos;m always learning, asking better questions, and figuring out how technology can be used more intentionally.
         </p>
