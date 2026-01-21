@@ -22,7 +22,7 @@ const socialLinks: SocialLink[] = [
     label: 'LinkedIn',
   },
   {
-    href: 'https://drive.google.com/file/d/1k-wMiguMN966LmJdvHZJVvlDukRmDrDv/view?usp=sharing',
+    href: 'https://drive.google.com/file/d/1Wtu0XSvmLflHbjf7jmLmizas4jDrPwTo/view?usp=sharing',
     icon: '/doc.png',
     label: 'Resume',
   },
