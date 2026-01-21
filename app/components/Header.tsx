@@ -11,15 +11,20 @@ interface SocialLink {
 
 const socialLinks: SocialLink[] = [
   {
-    href: 'https://github.com/ZachGrande',
+    href: 'https://github.com/jessicawang31',
     icon: '/github.svg',
     label: 'GitHub',
     invert: true,
   },
   {
-    href: 'https://linkedin.com/in/zach-grande',
+    href: 'https://www.linkedin.com/in/jessicawang31/',
     icon: '/linkedin.svg',
     label: 'LinkedIn',
+  },
+  {
+    href: 'https://drive.google.com/file/d/1k-wMiguMN966LmJdvHZJVvlDukRmDrDv/view?usp=sharing',
+    icon: '/doc.png',
+    label: 'Resume',
   },
 ];
 
@@ -29,13 +34,20 @@ export default function Header() {
       <div className="container mx-auto px-6 py-12 max-w-6xl">
         <div className="flex items-start justify-between mb-6">
           <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-black dark:text-white">
-            Zach Grande
+            Jessica Wang
           </h1>
           <ThemeToggle />
         </div>
-        <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl">
+        <p className="text-lg text-gray-700 dark:text-gray-400 mb-4 max-w-2xl">
           Software Engineer
         </p>
+        <p className="text-base text-gray-600 dark:text-gray-400 mb-4 max-w-2xl leading-relaxed">
+          Hi! I’m currently working on a Microsoft AI project, where I explore how AI-powered features can be shaped into meaningful product experiences. 
+          Concurrently, I'm pursuing a B.S. in Informatics at the University of Washington and a minor in Business. 
+          I care deeply about the intersection of technology and people, and I’m especially interested in building thoughtful, user-centered systems that improve accessibility and promote inclusiveness. 
+          I’m always learning, asking better questions, and figuring out how technology can be used more intentionally.
+        </p>
+
         <div className="flex items-center gap-4">
           {socialLinks.map((link, index) => (
             <React.Fragment key={link.href}>

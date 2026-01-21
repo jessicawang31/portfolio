@@ -4,39 +4,45 @@ const currentYear = new Date().getFullYear();
 
 export const projects: Project[] = [
   {
-    title: 'Hockey Teeth',
+    title: 'MAI Monetization',
     description:
-      'Modern band website featuring music streaming integration, event management, and responsive design optimized for mobile fans.',
-    imageSrc: '/hockeyteeth.svg',
-    siteUrl: 'https://hockeyteethband.com',
-    tags: ['React', 'AWS Amplify', 'TypeScript', 'Responsive'],
-    year: `2021 - ${currentYear}`,
+      'An applied MAI initiative examining how AI capabilities can be packaged, prototyped, and evaluated as monetizable product experiences.',
+    imageSrc: '/mai.jpg',
+    siteUrl: 'https://microsoft.ai/',
+    tags: ['React', 'Node.js', 'TypeScript', 'AI'],
+    year: `2026 - ${currentYear}`,
     highlights: [
-      'Integrated Spotify & Apple Music streaming',
-      'Dynamic event calendar with ticket links',
+      'Product-to-engineering translation under ambiguous requirements', 
+      'AI-focused feature exploration and feasibility validation',
+      'More to come...',
     ],
   },
   {
-    title: 'Ice Cream Cult',
+    title: 'ReThink',
     description:
-      'Simplistic band website with embedded videos, music streaming, and biography.',
-    imageSrc: '/icecreamcult.png',
-    siteUrl: 'https://icecreamcult.com',
-    tags: ['Next.js', 'Tailwind CSS', 'Vercel', 'Animations'],
-    year: '2025',
+      'Sustainability made easy. A centralized, web-based platform to identify and promote small, sustainable businesses, connecting UW students with local eco-friendly businesses through a full-stack web experience.',
+    imageSrc: '/rethink.png',
+    siteUrl: 'https://rethinkuw.netlify.app/',
+    tags: ['React', 'Node.js', 'JavaScript', 'Netlify'],
+    year: `2025 - ${currentYear}`,
     highlights: [
-      'Animated loading page for first-time visitors',
-      'Embedded Spotify albums',
+      'Searchable listings for local sustainable brands',
+      'Browse businesses by category and impact focus',
+      'Detailed profiles highlighting sustainable practices',
     ],
   },
   {
-    title: 'Phenomenality',
+    title: 'Bop It!',
     description:
-      'Educational platform developed as UW capstone project encouraging students to record their accomplishments.',
-    imageSrc: '/phenomenality.png',
-    siteUrl: 'https://phenomenality.web.app',
-    tags: ['Firebase', 'React', 'Cloud Functions', 'Authentication'],
-    year: '2022',
-    highlights: ['Real-time database', 'Tagging system for achievements'],
+      'Interactive web-based game featuring real-time gameplay logic and persistent leaderboard tracking.',
+    imageSrc: '/bopit.png',
+    siteUrl: 'https://github.com/jessicawang31/bop-it',
+    tags: ['React', 'Next.js', 'JavaScript', 'MongoDB', 'RESTful APIs', 'Azure', 'Real-time data'],
+    year: '2024',
+    highlights: [
+      'Implemented real-time game logic and score tracking',
+      'Built persistent leaderboard storage and retrieval',
+      'Optimized state management and backend performance',
+    ],
   },
 ];
