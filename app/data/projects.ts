@@ -14,8 +14,9 @@ export const projects: Project[] = [
     highlights: [
       'Product-to-engineering translation under ambiguous requirements', 
       'AI-focused feature exploration and feasibility validation',
-      'More to come...',
-    ],
+      'Translated research and product vision into feasible AI-powered features through rapid prototyping',
+      'Collaborated cross-functionally to evaluate tradeoffs and prioritize high-impact monetization opportunities'
+,          ],
   },
   {
     title: 'ReThink',
@@ -26,7 +27,7 @@ export const projects: Project[] = [
     tags: ['React', 'Node.js', 'JavaScript', 'Netlify'],
     year: `2025 - ${currentYear}`,
     highlights: [
-      'Searchable listings for local sustainable brands',
+      'Searchable listings for local Seattle sustainable businesses',
       'Browse businesses by category and impact focus',
       'Detailed profiles highlighting sustainable practices',
     ],
