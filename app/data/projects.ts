@@ -39,11 +39,25 @@ export const projects: Project[] = [
     imageSrc: '/bopit.png',
     siteUrl: 'https://github.com/jessicawang31/bop-it',
     tags: ['React', 'Next.js', 'JavaScript', 'MongoDB', 'RESTful APIs', 'Azure', 'Real-time data'],
-    year: '2024',
+    year: '2024-2025',
     highlights: [
       'Implemented real-time game logic and score tracking',
       'Built persistent leaderboard storage and retrieval',
       'Optimized state management and backend performance',
     ],
   },
+  {
+    title: 'PetSwipe',
+    description:
+      'Swipe-based pet adoption platform reimagining shelter discovery through a mobile-first matching experience.',
+    imageSrc: '/petswipe.png',
+    siteUrl: 'https://github.com/jessicawang31/PetSwipe',
+    tags: ['Swift', 'XML', 'MongoDB', 'Xcode', 'Mobile Development', 'Authentication'],
+    year: '2025',
+    highlights: [
+      'Designed swipe-based matching interface inspired by modern dating UX patterns',
+      'Implemented user authentication and persistent match storage across devices',
+      'Built filtering system by species, preferences, and location with shelter mapping integration',
+    ],
+  }
 ];
