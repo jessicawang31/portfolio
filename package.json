@@ -22,7 +22,7 @@
   "type": "module",
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.3",
-    "@next/eslint-plugin-next": "^16.1.1",
+    "@next/eslint-plugin-next": "^16.1.6",
     "@tailwindcss/postcss": "^4.1.18",
     "@types/node": "^24.10.4",
     "@types/react": "^19.2.7",
