@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import type { ProjectSection } from './components/ProjectGrid';
 
 interface CardProps {
   title: string;
@@ -9,9 +10,10 @@ interface CardProps {
   tags?: string[];
   year?: string;
   highlights?: string[];
+  sections?: ProjectSection[];
 }
 
-const Card = ({ title, description, imageSrc, siteUrl, tags, year, highlights }: CardProps) => {
+const Card = ({ title, description, imageSrc, siteUrl, tags, year, highlights, sections }: CardProps) => {
   return (
     <div className="group border border-gray-200 dark:border-gray-800 bg-white dark:bg-black hover:border-gray-300 dark:hover:border-gray-700 transition-colors duration-200 flex flex-col">
       <div className="p-8 flex-1 flex flex-col">
@@ -52,6 +54,26 @@ const Card = ({ title, description, imageSrc, siteUrl, tags, year, highlights }:
               </li>
             ))}
           </ul>
+        )}
+
+        {sections && sections.length > 0 && (
+          <div className="mb-6 space-y-5 flex-1">
+            {sections.map((section) => (
+              <div key={section.title}>
+                <h3 className="text-xs font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-500 mb-2">
+                  {section.title}
+                </h3>
+                <ul className="space-y-2">
+                  {section.bullets.map((bullet, index) => (
+                    <li key={index} className="text-sm text-gray-600 dark:text-gray-400 flex items-start">
+                      <span className="mr-2 text-gray-400 dark:text-gray-600 flex-shrink-0">•</span>
+                      <span>{bullet}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
         )}
 
         <div className="flex items-end justify-between gap-4 mt-auto">

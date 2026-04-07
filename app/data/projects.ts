@@ -6,17 +6,43 @@ export const projects: Project[] = [
   {
     title: 'MAI Monetization',
     description:
-      'An applied MAI initiative examining how AI capabilities can be packaged, prototyped, and evaluated as monetizable product experiences.',
+      'A product design initiative focused on researching, prototyping, and evaluating monetization experiences for AI tools within Copilot, with an emphasis on clarity, trust, and user value.',
     imageSrc: '/mai.jpg',
     siteUrl: 'https://microsoft.ai/',
     tags: ['React', 'Node.js', 'TypeScript', 'AI'],
-    year: `2026 - ${currentYear}`,
+    year: `2025 - ${currentYear}`,
     highlights: [
-      'Product-to-engineering translation under ambiguous requirements', 
-      'AI-focused feature exploration and feasibility validation',
-      'Translated research and product vision into feasible AI-powered features through rapid prototyping',
-      'Collaborated cross-functionally to evaluate tradeoffs and prioritize high-impact monetization opportunities'
-,          ],
+      'Conducted user research to understand expectations, friction, and willingness to pay for AI tools',
+      'Designed and evaluated monetization flows (upgrade, pay-as-you-go, referrals) within Copilot',
+      'Built interactive prototypes to test clarity, usability, and perceived value',
+      'Defined success metrics to assess user understanding, trust, and upgrade intent',
+    ],
+    sections: [
+      {
+        title: 'My Contributions',
+        bullets: [
+          'Translated research insights into monetization strategies and user flows',
+          'Led design of upgrade and credit-based experiences aligned with user behavior',
+          'Scoped MVP features and prioritized based on user and business impact',
+          'Used AI tools to accelerate research synthesis and prototyping',
+        ],
+      },
+      {
+        title: 'Takeaways',
+        bullets: [
+          'Clear value communication is critical for monetization',
+          'Users need transparency and control over usage and costs',
+          'Monetization should support, not interrupt, the core experience',
+        ],
+      },
+      {
+        title: 'Next Steps',
+        bullets: [
+          'Validate flows with more users and refine based on behavior',
+          'Increase fidelity and explore implementation feasibility',
+        ],
+      },
+    ],
   },
   {
     title: 'ReThink',

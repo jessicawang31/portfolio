@@ -1,5 +1,10 @@
 import Card from '../card';
 
+export interface ProjectSection {
+  title: string;
+  bullets: string[];
+}
+
 export interface Project {
   title: string;
   description: string;
@@ -7,7 +12,8 @@ export interface Project {
   siteUrl: string;
   tags: string[];
   year: string;
-  highlights: string[];
+  highlights?: string[];
+  sections?: ProjectSection[];
 }
 
 interface ProjectGridProps {
@@ -31,6 +37,7 @@ export default function ProjectGrid({ projects }: ProjectGridProps) {
             tags={project.tags}
             year={project.year}
             highlights={project.highlights}
+            sections={project.sections}
           />
         ))}
       </div>
