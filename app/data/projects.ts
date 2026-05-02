@@ -17,32 +17,32 @@ export const projects: Project[] = [
       'Built interactive prototypes to test clarity, usability, and perceived value',
       'Defined success metrics to assess user understanding, trust, and upgrade intent',
     ],
-    sections: [
-      {
-        title: 'My Contributions',
-        bullets: [
-          'Translated research insights into monetization strategies and user flows',
-          'Led design of upgrade and credit-based experiences aligned with user behavior',
-          'Scoped MVP features and prioritized based on user and business impact',
-          'Used AI tools to accelerate research synthesis and prototyping',
-        ],
-      },
-      {
-        title: 'Takeaways',
-        bullets: [
-          'Clear value communication is critical for monetization',
-          'Users need transparency and control over usage and costs',
-          'Monetization should support, not interrupt, the core experience',
-        ],
-      },
-      {
-        title: 'Next Steps',
-        bullets: [
-          'Validate flows with more users and refine based on behavior',
-          'Increase fidelity and explore implementation feasibility',
-        ],
-      },
-    ],
+    // sections: [
+    //   {
+    //     title: 'My Contributions',
+    //     bullets: [
+    //       'Translated research insights into monetization strategies and user flows',
+    //       'Led design of upgrade and credit-based experiences aligned with user behavior',
+    //       'Scoped MVP features and prioritized based on user and business impact',
+    //       'Used AI tools to accelerate research synthesis and prototyping',
+    //     ],
+    //   },
+    //   {
+    //     title: 'Takeaways',
+    //     bullets: [
+    //       'Clear value communication is critical for monetization',
+    //       'Users need transparency and control over usage and costs',
+    //       'Monetization should support, not interrupt, the core experience',
+    //     ],
+    //   },
+    //   {
+    //     title: 'Next Steps',
+    //     bullets: [
+    //       'Validate flows with more users and refine based on behavior',
+    //       'Increase fidelity and explore implementation feasibility',
+    //     ],
+    //   },
+    // ],
   },
   {
     title: 'ReThink',
