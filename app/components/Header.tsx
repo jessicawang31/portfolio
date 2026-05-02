@@ -42,19 +42,16 @@ export default function Header() {
           Software Engineer
         </p>
         <p className="text-base text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">
-          Hi! I&apos;m currently working on a Microsoft AI project, where I explore how AI-powered features can be shaped into meaningful product experiences. 
-          I&apos;m also a Lead Teaching Assistant for Data Structures and Algorithms course at the University of Washington, where I mentor students and help make complex concepts more approachable and intuitive.
+          Hi! I&apos;m currently working on a Microsoft AI capstone project where I design monetization experiences for AI tools, exploring how to balance user value, trust, and sustainable business models.
         </p>
         <p className="text-base text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">
-          Concurrently, I&apos;m pursuing a B.S. in Informatics at the University of Washington and a minor in Business. 
-          I care deeply about the intersection of technology and people, and I&apos;m especially interested in building thoughtful, user-centered systems that improve accessibility and promote inclusiveness. 
-          I&apos;m always learning, asking better questions, and figuring out how technology can be used more intentionally.
+          Alongside this, I&apos;m a Lead Teaching Assistant for Data Structures &amp; Algorithms at the University of Washington, where I help make complex concepts more intuitive and accessible.
         </p>
         <p className="text-base text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">
-          In my free time, I enjoy cafe hopping or taking a workout class!
+          I&apos;m pursuing a B.S. in Informatics with a minor in Business, and I&apos;m especially interested in building thoughtful, user-centered systems at the intersection of technology, product, and monetization.
         </p>
         <p className="text-base text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">
-          Feel free to reach out or connect!
+          In my free time, I enjoy cafe hopping and working out—feel free to reach out!
         </p>
 
         <div className="flex items-center gap-4">
